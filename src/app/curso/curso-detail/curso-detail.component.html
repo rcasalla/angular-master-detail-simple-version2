@@ -1,4 +1,5 @@
-<dl>
+<div class="border p-3">
+  <dl>
 	<dt>Nombre</dt>
 	<dd>{{cursoDetail.name}}</dd>
 	<dt>Crn</dt>
@@ -6,7 +7,7 @@
 	<dt>Créditos</dt>
 	<dd>{{cursoDetail.creditos}}</dd>
 </dl>
+</div>
 
 
-
-<curso-historia [idcurso]="cursoDetail.id"></curso-historia>
+<curso-historia class="m-3" [idcurso]="cursoDetail.id"></curso-historia>
