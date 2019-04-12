@@ -1,0 +1,23 @@
+<p>
+
+	<button type="button" class="btn" [ngClass]="{ 'btn-primary': isCollapsed,'btn-outline-primary':!isCollapsed}" (click)="getCursoHistoria()">
+    Historia Curso
+  </button>
+</p>
+
+<div id="collapseHistoria" [ngbCollapse]="isCollapsed">
+	<table class="table  table-striped">
+
+		<tbody>
+			<tr *ngFor="let i of historia.semestres">
+				<td style="cursor: pointer;">
+					<dd>{{i.sem}}</dd>
+
+				</td>
+				<td>
+					<dd>{{i.profesor}}</dd>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

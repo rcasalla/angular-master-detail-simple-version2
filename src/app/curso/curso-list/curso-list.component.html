@@ -1,0 +1,24 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col">
+			<table class="table table-striped">
+
+				<tbody>
+					<tr *ngFor="let i of cursos">
+						<td style="cursor: pointer;">
+						
+							<dd (click)="onSelected(i.id)" routerLinkActive="active-link">{{i.name}}</dd>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+
+		<div class="col">
+			<div *ngIf="selectedCurso" class="border m-3 p-3">
+				<app-curso-detail [cursoDetail]="selectedCurso"> </app-curso-detail>
+			</div>
+
+	</div>
+</div>

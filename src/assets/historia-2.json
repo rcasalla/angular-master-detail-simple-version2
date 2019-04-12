@@ -1,0 +1,12 @@
+{
+    "id": 2,
+    "name": "El Tiempo y el Espacio",
+    "semestres":[
+       { "sem": "201710",
+        "profesor":"Hirito Morokuwa"
+       },
+       { "sem": "201720",
+        "profesor":"Alvaro Garcia"
+       }
+    ] 
+  }

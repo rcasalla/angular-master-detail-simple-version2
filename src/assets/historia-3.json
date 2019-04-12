@@ -1,0 +1,12 @@
+{
+    "id": 3,
+    "name": "Vivir hoy",
+    "semestres":[
+       { "sem": "201710",
+        "profesor":"Felicidad Grunt"
+       },
+       { "sem": "201720",
+        "profesor":"María Gonzales"
+       }
+    ] 
+  }

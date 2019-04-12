@@ -1,0 +1,12 @@
+{
+    "id": 1,
+    "name": "Desarrollo de Sw en Equipos",
+    "semestres":[
+       { "sem": "201710",
+        "profesor":"Pedro Paramo"
+       },
+       { "sem": "201720",
+        "profesor":"Juan Rulfo"
+       }
+    ] 
+  }
